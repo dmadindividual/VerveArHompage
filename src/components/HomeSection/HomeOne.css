@@ -1,0 +1,48 @@
+.Header_one {
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Header_content {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.Header_one h1 {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.Header_one p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.btns {
+  display: flex;
+  gap: 0.7em;
+}
+
+.container {
+  margin-top: 2em;
+  margin: auto;
+  border: 2px solid #e55417;
+  position: relative; /* Add this line */
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}/*# sourceMappingURL=HomeOne.css.map */
